@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.main-bar-img {
+    height: 50px;
+}
+
+.main-bar-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    cursor: pointer;
+}
+
+.main-bar-text>ul>li:hover {
+    color: skyblue;
+    font-size: larger;
+}
+
+.main-bar-items {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-place-btn,
+.signin-btn,
+.create-account-btn {
+    height: 40px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 20px;
+    color: skyblue;
+    border-color: skyblue;
+}
+
+.list-place-btn:hover,
+.signin-btn:hover,
+.create-account-btn:hover {
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+}
+
+.welcome-post-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.welcome-post-text>h6 {
+    font-size: xx-large;
+    margin: 0px;
+}
+
+.welcome-post-text>p {
+    font-size: large;
+}
+
+.welcome-post-bar {
+    margin-top: 60px;
+    margin: 0px 30px;
+    min-height: 80px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    background-color: white;
+    cursor: pointer;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.welcome-post {
+    padding-left: 180px;
+    padding-right: 180px;
+    background-image: url(images/5z_rz.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: 1370px;
+    height: 600px;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.welcome-post-bar-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-post-taking-information {
+    max-width: 1200px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0px 0px 10px gray;
+    margin-top: -20px;
+    flex-wrap: wrap;
+}
+
+.welcome-post-search-btn {
+    width: 900px;
+    height: 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: gainsboro;
+    padding-left: 25px;
+    margin-bottom: -50px;
+}
+
+.select-people-btn {
+    width: 900px;
+    height: 60px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: gainsboro;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-bottom: -20px;
+}
+
+.add-btn {
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    border-color: gainsboro;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: -20px;
+    align-items: flex-end;
+    margin: 5px;
+    margin-top: -20px;
+}
+
+.welcome-post-main-search-div {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.welcome-post-main-search {
+    height: 60px;
+    width: 350px;
+    background-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px gray;
+    color: white;
+    font-size: x-large;
+}
+
+.vip-card {
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(54, 54, 134);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.vip-card-img-text {
+    display: flex;
+    align-items: center;
+}
+
+#h3-vip {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.vip-card-text {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.vip-card-list {
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vip-card-sign-btn {
+    background-color: white;
+    border-radius: 5px;
+    color: skyblue;
+    border-color: skyblue;
+    border-width: 1px;
+    height: 50px;
+    width: 150px;
+}
+
+.vip-card-sign-btn:hover {
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+}
+
+.stay-more-div {
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(201, 234, 253);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.stay-more-div:hover {
+    box-shadow: 0px 0px 10px gray;
+}
+
+.stay-more-text>p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stay-more-img-text {
+    display: flex;
+    margin-left: 20px;
+}
+
+.stay-more-btn {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    color: skyblue;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: skyblue;
+    margin-right: 20px;
+}
+
+.stay-more-btn:hover {
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+}
+
+.explore-destination-heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.vacation-rental-box {
+    min-height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 0px 40px;
+}
+
+.vacation-rental-box-items {
+    background-color: white;
+    border-color: rgb(253, 253, 253);
+    border-width: 1px;
+    border-style: groove;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.vacation-rental-box-items > h3,p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.vacation-rental-box-items:hover {
+    box-shadow: 0px 0px 10px gray;
+}
+
+.destination-outside-pakistan {
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.destination-outside-pakistan-items > img {
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+}
+
+.destination-outside-pakistan-items > img:hover {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.destination-outside-pakistan-items > h4 {
+    font-size: larger;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.destination-outside-pakistan-items > h4,p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destination-outside-pakistan-items > P {
+    font-size: 14px;
+    margin: 0px;
+    color: rgb(172, 170, 170);
+}
+
+.destination-outside-pakistan-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 50px;
+    cursor: pointer;
+}
